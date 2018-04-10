@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.renwen.showimage.MainActivity" >
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/siv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+    <EditText 
+        android:id="@+id/et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入图片的路径"/>
+    
+    <Button 
+        android:onClick="btnClick"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="浏览"/>
+</LinearLayout>

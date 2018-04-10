@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<infos>
+    <city id="1">
+        <temp>20摄氏度</temp>
+        <weather>5月20日 多云转阴</weather>
+        <wind>南风3-4级</wind>
+        <name>上海</name>
+        <pm>200</pm>
+    </city>
+    
+    <city id="2">
+        <temp>30摄氏度</temp>
+        <weather>6月20日 多云转阴</weather>
+        <wind>南风6-8级</wind>
+        <name>北京</name>
+        <pm>500</pm>
+    </city>
+</infos>

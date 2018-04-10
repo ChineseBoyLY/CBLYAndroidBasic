@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;StreamTools.java&apos; to &apos;提交数据到服务器/src/com.renwen.loginsubmit.utils&apos;&#x0D;&#x0A;- Original project: &apos;网页源代码查看器&apos;&#x0D;&#x0A;- Destination element: &apos;提交数据到服务器/src/com.renwen.loginsubmit.utils&apos;&#x0D;&#x0A;- Original element: &apos;com.renwen.utils.StreamTools.java&apos;" description="Copy compilation unit" destination="=提交数据到服务器/src&lt;com.renwen.loginsubmit.utils" element1="/src&lt;com.renwen.utils{StreamTools.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1412254976714" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void callPhone()&apos; from &apos;com.renwen.phone.MainActivity.btnClick()&apos; to &apos;com.renwen.phone.MainActivity&apos;&#x0D;&#x0A;- Original project: &apos;拨号器&apos;&#x0D;&#x0A;- Method name: &apos;callPhone&apos;&#x0D;&#x0A;- Destination type: &apos;com.renwen.phone.MainActivity&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;callPhone&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.renwen.phone{MainActivity.java" name="callPhone" replace="false" selection="1286 398" stamp="1411027599609" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;IService.aidl&apos; to &apos;远程服务支付宝2/src/com.example.aidl&apos;&#x0D;&#x0A;- Original project: &apos;远程服务支付宝1&apos;&#x0D;&#x0A;- Destination element: &apos;远程服务支付宝2/src/com.example.aidl&apos;&#x0D;&#x0A;- Original element: &apos;IService.aidl&apos;" description="Copy file" destination="=远程服务支付宝2/src&lt;com.example.aidl" element1="src/com/example/aidl/IService.aidl" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1413969139235" units="0" version="1.0"/>
+</session>

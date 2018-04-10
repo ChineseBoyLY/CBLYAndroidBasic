@@ -1,0 +1,76 @@
+package com.example.layoutdemo;
+
+import android.app.ActionBar.LayoutParams;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.GridLayout;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+	
+//	设置组件 跨多少行 跨多少列
+	private void setSpanRowCol(GridLayout grid, Button btn, int start, int row,
+			int col) {
+		GridLayout.LayoutParams par = new GridLayout.LayoutParams();
+		par.rowSpec = GridLayout.spec(start, col);
+		par.columnSpec = GridLayout.spec(start, row);
+		btn.setLayoutParams(par);
+		grid.addView(btn);
+	}
+//   指定所在的行和列
+	private void setRowCol(GridLayout grid, Button btn, int row, int col) {
+		// 指定该组件所在的行
+		GridLayout.Spec rowSpec = GridLayout.spec(row);
+		// 指定该组件所在列
+		GridLayout.Spec columnSpec = GridLayout.spec(col);
+		GridLayout.LayoutParams params = new GridLayout.LayoutParams(rowSpec,
+				columnSpec);
+		grid.addView(btn, params);
+	}
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.codegridlayout);
+		GridLayout grid = (GridLayout) findViewById(R.id.grid);
+		LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT,
+				LayoutParams.WRAP_CONTENT);
+		grid.setColumnCount(3);
+		grid.setRowCount(3);
+      
+		for (int i = 0; i < 3; i++) {
+			Button btn = new Button(this);
+			btn.setText(i + "");
+//			btn.setTextSize(60);
+			btn.setLayoutParams(params);
+			btn.setId(i);
+			grid.addView(btn);
+		}
+		Button btn = (Button) findViewById(1);
+		grid.removeView(btn);
+		setSpanRowCol(grid,btn,0,2,2);
+//		btn.setText("000");
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PersonDao.java&apos; to &apos;数据库/src/com.renwen.sqlite.dao&apos;&#x0D;&#x0A;- Original project: &apos;数据库&apos;&#x0D;&#x0A;- Destination element: &apos;数据库/src/com.renwen.sqlite.dao&apos;&#x0D;&#x0A;- Original element: &apos;com.renwen.sqlite.dao.PersonDao.java&apos;" description="Copy compilation unit" destination="/src&lt;com.renwen.sqlite.dao" element1="/src&lt;com.renwen.sqlite.dao{PersonDao.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1411366196762" units="1" version="1.0"/>
+</session>

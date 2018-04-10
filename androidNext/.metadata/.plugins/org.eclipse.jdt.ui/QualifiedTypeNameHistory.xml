@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.example.testservice.R.id"/>
+<fullyQualifiedTypeName name="com.example.testservice.MyService"/>
+<fullyQualifiedTypeName name="com.example.testservice.MyService.MyBinder"/>
+<fullyQualifiedTypeName name="android.os.IBinder"/>
+<fullyQualifiedTypeName name="android.os.Binder"/>
+<fullyQualifiedTypeName name="android.os.MessageQueue.IdleHandler"/>
+<fullyQualifiedTypeName name="com.example.aidl.AlipayService.MyBinde"/>
+<fullyQualifiedTypeName name="com.example.game.R.id"/>
+<fullyQualifiedTypeName name="com.example.game.MainActivity"/>
+<fullyQualifiedTypeName name="android.content.ServiceConnection"/>
+<fullyQualifiedTypeName name="com.example.aidl.IService"/>
+<fullyQualifiedTypeName name="com.example.aidl.IService.Stub"/>
+<fullyQualifiedTypeName name="android.app.Service"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.content.BroadcastReceiver"/>
+<fullyQualifiedTypeName name="com.example.callmethod.MyService"/>
+<fullyQualifiedTypeName name="android.content.IntentFilter"/>
+<fullyQualifiedTypeName name="com.example.callmethod.MyService.MyReceiver"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="com.example.onloadpic.R.id"/>
+<fullyQualifiedTypeName name="android.graphics.Bitmap"/>
+<fullyQualifiedTypeName name="android.graphics.BitmapFactory"/>
+<fullyQualifiedTypeName name="android.graphics.BitmapFactory.Options"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.view.WindowManager"/>
+</qualifiedTypeNameHistroy>

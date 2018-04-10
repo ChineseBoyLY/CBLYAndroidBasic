@@ -1,0 +1,25 @@
+package com.example.fragmentmen;
+
+import android.app.Fragment;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+public class Fragment2 extends Fragment {
+
+	TextView tv;
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		View view = inflater.inflate(R.layout.frg2, null);
+		tv=(TextView) view.findViewById(R.id.tv);
+		return view;
+	}
+	
+	public void setText(String text){
+		tv.setText(text);
+	}
+	
+}

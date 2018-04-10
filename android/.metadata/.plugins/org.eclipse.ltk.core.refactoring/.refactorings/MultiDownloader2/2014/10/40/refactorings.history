@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private void threadFinish()&apos; from &apos;com.example.multidownloader.MainActivity.DownloadThread.run()&apos; to &apos;com.example.multidownloader.MainActivity.DownloadThread&apos;&#x0D;&#x0A;- Original project: &apos;MultiDownloader2&apos;&#x0D;&#x0A;- Method name: &apos;threadFinish&apos;&#x0D;&#x0A;- Destination type: &apos;com.example.multidownloader.MainActivity.DownloadThread&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;threadFinish&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.example.multidownloader{MainActivity.java" name="threadFinish" replace="false" selection="6385 315" stamp="1412425210395" version="1.0" visibility="2"/>
+</session>

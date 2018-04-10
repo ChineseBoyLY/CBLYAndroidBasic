@@ -1,0 +1,18 @@
+INDEX VERSION 1.126+K:\Study\android\androidNext\.metadata\.plugins\org.eclipse.jdt.core
+1199837894.index
+3413120185.index
+3432807746.index
+2445799997.index
+2654089886.index
+3985762200.index
+164114601.index
+2468352643.index
+2118315206.index
+2243586281.index
+1286863273.index
+717993823.index
+3274330774.index
+2075373419.index
+743469577.index
+1243208934.index
+1591535312.index
