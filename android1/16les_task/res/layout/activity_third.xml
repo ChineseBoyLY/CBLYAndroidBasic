@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".ThirdActivity" >
+
+    <Button android:id="@+id/btn31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动第三个界面"
+        android:onClick="btnClick" />
+<Button android:id="@+id/btn32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动第2个界面"
+        android:onClick="btnClick" />
+<Button android:id="@+id/btn33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动第1个界面"
+        android:onClick="btnClick" />
+<Button android:id="@+id/btn34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动第4个界面"
+        android:onClick="btnClick" />
+</LinearLayout>

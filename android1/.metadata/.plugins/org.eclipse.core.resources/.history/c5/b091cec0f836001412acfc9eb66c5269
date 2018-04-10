@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.les4_ui1.MainActivity" >
+
+    <!-- <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="按钮1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="按钮2" /> -->
+        
+<!-- 可以设置数字，密码等 -->
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:singleLine="true" />
+	<TextView 
+	    android:id="@+id/tv5"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="我是一只小綿羊"
+        android:textColor="@android:color/holo_purple"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="20"/>
+    
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tvhtml"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp" />
+
+</LinearLayout>

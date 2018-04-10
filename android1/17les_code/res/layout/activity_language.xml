@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".LanguageActivity" >
+
+    <Button android:id="@+id/success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置成功返回"
+        android:onClick="btnClick" />
+<Button android:id="@+id/failed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置失败返回"
+        android:onClick="btnClick" />
+<Button android:id="@+id/btnCurrentExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出当前应用"
+        android:onClick="btnClick" />
+<Button android:id="@+id/btnthird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动第三个界面"
+        android:onClick="btnClick" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.les5_ui2.ImgActivity" >
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="fill_parent"
+        android:layout_height="400dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClick"
+            android:text="下一张" />
+
+        <Button
+            android:id="@+id/frontBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClick"
+            android:text="上一张" />
+    </LinearLayout>
+
+</LinearLayout>

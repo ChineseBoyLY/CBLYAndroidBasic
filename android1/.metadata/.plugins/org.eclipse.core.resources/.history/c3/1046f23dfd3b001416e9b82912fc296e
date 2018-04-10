@@ -1,0 +1,5 @@
+package com.example.viewflipperdemo;
+
+public interface IAdImages {
+
+}

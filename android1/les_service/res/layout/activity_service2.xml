@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	 tools:context=".Service2Activity" >
+
+    <Button android:id="@+id/btnBind2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"
+        android:onClick="btnClick" />
+ <Button android:id="@+id/btnBind3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解除绑定服务"
+        android:onClick="btnClick" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="oval">
+
+    <!-- 指定弧度 外观资源如果没有指定颜色 默认颜色是透明 -->
+<!--     <corners android:topLeftRadius="100dip"
+        android:topRightRadius="500dip"
+        android:bottomLeftRadius="100dip"
+        android:bottomRightRadius="500dip"/> -->
+
+    
+    <!-- 渐变色 -->
+   <!--  <gradient android:startColor="#ff0000"
+        android:centerColor="#00ff00"
+        android:endColor="#0000ff"/> -->
+	<!-- 填充色 -->
+    <solid android:color="#ff0000"/>
+    
+    <!-- 边框 
+    	width 虚线厚度
+    	color 虚线颜色
+    	dashWidth 单个虚线宽度
+    	dashGap 虚线之间的间隔
+    -->
+    <stroke android:width="30dip"
+        android:color="#000000"
+        android:dashWidth="1dip"
+        android:dashGap="1dip"/>
+</shape>

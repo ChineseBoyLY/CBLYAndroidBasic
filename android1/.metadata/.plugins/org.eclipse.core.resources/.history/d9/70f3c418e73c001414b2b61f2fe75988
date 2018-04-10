@@ -1,0 +1,12 @@
+package com.example.datademo;
+
+public class Book {
+	int bookId;
+	String bookName;
+	public Book(int bookId, String bookName) {
+		super();
+		this.bookId = bookId;
+		this.bookName = bookName;
+	}
+	
+}

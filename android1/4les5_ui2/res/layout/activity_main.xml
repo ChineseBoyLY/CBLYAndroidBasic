@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	tools:context="com.example.les5_ui2.MainActivity" >
+
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_down" />
+
+    <ImageButton 
+        android:id="@+id/imgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/up"/>
+	<Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn9" />
+	
+	<Button android:layout_width="fill_parent"
+	    android:layout_height="300dip"
+	    android:background="@drawable/btn9"/>
+	
+</LinearLayout>

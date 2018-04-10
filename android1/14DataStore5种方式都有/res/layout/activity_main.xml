@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:layout_margin="0dp"
+    android:background="#ECECEC"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/share_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginBottom="5dp"
+        android:background="#E8D3E3"
+        android:gravity="center_horizontal|center"
+        android:text="@string/share_preferences"
+        android:textColor="#646464"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/files"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginBottom="5dp"
+        android:background="#E8D3E3"
+        android:gravity="center_horizontal|center"
+        android:text="@string/files"
+        android:textColor="#646464"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/network"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginBottom="5dp"
+        android:background="#E8D3E3"
+        android:gravity="center_horizontal|center"
+        android:text="@string/network"
+        android:textColor="#646464"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sqlite"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginBottom="5dp"
+        android:background="#E8D3E3"
+        android:gravity="center_horizontal|center"
+        android:text="@string/sqlite"
+        android:textColor="#646464"
+        android:textSize="18sp" />
+
+</LinearLayout>

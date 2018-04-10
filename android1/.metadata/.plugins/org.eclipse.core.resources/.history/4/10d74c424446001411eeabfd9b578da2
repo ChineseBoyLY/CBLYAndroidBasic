@@ -1,0 +1,81 @@
+package com.example.les_touch;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Paint.Style;
+import android.view.View;
+
+public class MyView extends View {
+
+	float x;
+	float y;
+	//是否飞行的标志位
+	boolean flag=false;
+	
+	public void setFlag(boolean flag){
+		this.flag=flag;
+	}
+	
+	FlushThread thread;
+	
+	class FlushThread extends Thread{
+		@Override
+		public void run() {
+		}
+	}
+	
+	public void setX(float x){
+		this.x=x;
+	}
+	public void setY(float y){
+		this.y=y;
+	}
+	public MyView(Context ctx) {
+		super(ctx);
+		new Thread(){
+			public void run() {
+				while(true){
+					try {
+						Thread.sleep(100);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+					postInvalidate();
+				}
+			};
+		}.start();
+	}
+	
+	@Override
+	protected void onDraw(Canvas canvas) {
+		// TODO Auto-generated method stub
+		Paint paint=new Paint();
+		paint.setColor(Color.RED);
+		//画直线
+		canvas.drawLine(300, 0, 300, 768, paint);
+		
+		paint.setColor(Color.GREEN);
+		
+		if(flag){
+			x+=10;
+		}else if(x==830||y==360){
+			flag=false;
+			x=0;
+		}
+		
+		//绘制篮球
+		canvas.drawCircle(x,y, 70, paint);
+		
+		
+		//绘制篮筐
+		
+		paint.setColor(Color.WHITE);
+		paint.setStyle(Style.STROKE);
+		paint.setStrokeWidth(10);
+		canvas.drawCircle(830,360,100, paint);
+		
+	}
+	
+}

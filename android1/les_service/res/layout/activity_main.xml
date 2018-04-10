@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity" >
+
+    <Button android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startService"
+        android:onClick="btnClick" />
+<Button android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="销毁服务"
+        android:onClick="btnClick" />
+<Button android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"
+        android:onClick="btnClick" />
+<Button android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解除绑定"
+        android:onClick="btnClick" />
+<Button android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第二个界面"
+        android:onClick="btnClick" />
+<EditText android:id="@+id/nameEt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<Button android:id="@+id/btnLogin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="登陆"
+    android:onClick="btnClick"/>
+</LinearLayout>

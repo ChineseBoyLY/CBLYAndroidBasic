@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">デモ5</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_list">Items</string>
+    <string name="menu_new">新規</string>
+    <string name="menu_updatetemplate">更新</string>
+    <string name="menu_checksheet">チェックリスト</string>
+    <string name="menu_setting">設定</string>
+    <string name="menu_send">送信</string>
+    <string name="menu_delete">削除</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_logout">ログアウト</string>
+    <string name="menu_complete">完了</string>
+    <string name="menu_Confirm">承認</string>
+    <string name="menu_Reject">却下</string>
+    <string name="label_URL">URL</string>
+    <string name="label_CompanyID">会社ID</string>
+    <string name="button_save">保存</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="button_clear">クリア</string>
+    <string name="button_inputmode">入力モード切替</string>
+    <string name="lbl_MemoButtonTitle">入力</string>
+    <string name="button_location">現在地</string>
+
+    <string-array name="countryFW">
+        <item>ア行</item>
+        <item>イ行</item>
+        <item>ウ行</item>
+        <item>エ行</item>
+        <item>オ行</item>
+    </string-array>
+    <string-array name="countryNm">
+        <item>アメリカ合衆国</item>
+        <item>イタリア</item>
+        <item>カナダ</item>
+        <item>ナイジェリア</item>
+    </string-array>
+    <string-array name="stateNm">
+        <item>アーカンソー州</item>
+        <item>アラスカ州</item>
+        <item>アラバマ州</item>
+        <item>カリフォルニア州</item>
+    </string-array>
+    <string-array name="formatSpinner">
+        <item>婚姻証明書</item>
+    </string-array>
+
+    <string name="login">ログイン</string>
+    <string name="lbl_User">ユーザー</string>
+    <string name="lbl_Password">パスワード</string>
+    <string name="lbl_PasswordSave">パスワードの保存</string>
+    <string name="lbl_AutoLogin">自動ログイン</string>
+    <string name="SUNDAY">日</string>
+    <string name="MONDAY">月</string>
+    <string name="TUESDAY">火</string>
+    <string name="WEDNESDAY">水</string>
+    <string name="THURSDAY">木</string>
+    <string name="FRIDAY">金</string>
+    <string name="SATURDAY">土</string>
+    <string name="HOUR">時</string>
+    <string name="MINUTE">分</string>
+    <string name="WEEKDAY">曜日</string>
+    <string name="Perfectuarl">都道府県</string>
+    <string name="City">区市名</string>
+    <string name="Region">町村名</string>
+    <string name="SELECTVALUE">選択値</string>
+    <string name="selectOfTextView">選択値</string>
+    <string name="NetworkError">ネットワークエラー</string>
+    <string name="GetSystemSetting">システム設定取得</string>
+    <string name="UpdateTemplate">テンプレート更新</string>
+    <string name="ParseTemplateXML">テンプレートXML解析</string>
+    <string name="send">送信</string>
+    <string name="sendConfirm">送信確認</string>
+    <string name="saveConfirm">保存確認</string>
+    <string name="completeConfirm">完了確認</string>
+    <string name="sendConfirmContent">送信します。よろしいでしょうか？</string>
+    <string name="MSG_00001">ユーザー名またはパスワードに誤りがあります。ログイン出来ません。</string>
+    <string name="MSG_00002">保存しました。</string>
+    <string name="MSG_00003">送信しました。</string>
+    <string name="MSG_00004">タイムアウトしました。</string>
+    <string name="MSG_00005">ライセンスが間違いので、送信できません。</string>
+    <string name="MSG_00006">契約数が超えるので、送信できません。</string>
+    <string name="MSG_00007">体験期限が切れるので、送信できません。</string>
+    <string name="MSG_00008">ローカルでテンプレートファイルが存在していませんので、ファイル作成は失敗しました。</string>
+    <string name="MSG_00009">保存必要がありません。</string>
+    <string name="MSG_00010">チェックシートへの変更を廃棄します。よろしいでしょうか？</string>
+    <string name="MSG_00011">該当チェックシートを削除します。よろしいでしょうか？</string>
+    <string name="MSG_00012">該当チェックシートが削除されました。</string>
+    <string name="MSG_00013">保存済の削除対象チェックシートが存在しません。</string>
+    <string name="MSG_00014">承認しました。</string>
+    <string name="MSG_00015">完了しました。</string>
+    <string name="MSG_00016">却下しました。</string>
+    <string name="MSG_00017">スタンプ未捺印のため、承認できません。</string>
+    <string name="MSG_00018">スタンプ未捺印のため、却下できません。</string>
+    <string name="MSG_00019">チェックシートの内容が変更されています。変更を保存して完了処理を行いますか？</string>
+    <string name="MSG_00020">サーバーへ接続できません、送信できません。</string>
+    <string name="MSG_00021">ローカルでテンプレートファイルが存在していません、更新してください。</string>
+    <string name="MSG_00022">ログアウトします。よろしいでしょうか？</string>
+    <string name="MSG_00023">サーバーへ接続できません、もう一回チェックしてください。</string>
+    <string name="YES">はい</string>
+    <string name="NO">いいえ</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">キャンセル</string>
+    <string name="DELETE">削除</string>
+    <string name="DELETECONFIRM">削除確認</string>
+    <string name="DELETERESULT">削除結果</string>
+    <string name="check_result_ok">「%1$s」は出生子の名で使用できます。</string>
+    <string name="check_result_fail">「%1$s」は出生子の名で使用できません。</string>
+    <string name="activity_con_search_kindsTv">分类</string>
+    <string name="activity_con_search_startSearchBtn">条件确定</string>
+    <string name="activity_con_search_initConBtn">初始化条件</string>
+    <string name="activity_con_search_detailInfoBtn">详细信息</string>
+    <string name="activity_con_search_exitBtn">戻る</string>
+    <string name="activity_con_search_chbox_6">戸籍時報</string>
+    <string name="activity_con_search_chbox_2">渉外先例</string>
+    <string name="activity_con_search_chbox_4">渉外判例</string>
+    <string name="activity_con_search_chbox_5">渉外法令</string>
+    <string name="activity_con_search_chbox_3">訓令決議</string>
+    <string name="activity_con_search_chbox_1">訓令通達</string>
+    <string name="activity_con_search_differTv">区分</string>
+    <string name="activity_con_search_dayPay">日付</string>
+    <string name="activity_con_search_searchKeyTv">検索KEY</string>
+    <string name="activity_con_search_titleText">一括検索</string>
+    <string name="activity_con_search_chbox_6_1_txt">戸籍時報</string>
+    <string name="activity_con_search_chbox_6_2_txt">大阪だよりのみ</string>
+    <string name="activity_con_search_chbox_2_1_txt">通達・回答</string>
+    <string name="activity_con_search_chbox_3_1_txt">決議</string>
+    <string name="activity_con_search_chbox_1_1_txt">テスト111</string>
+    <string name="activity_con_search_searchkey_2">検索KEY 2</string>
+    <string name="activity_con_search_searchkey_3">検索KEY 3</string>
+    <string name="activity_detail_chbox_1_moveFrontBtn">前項</string>
+    <string name="activity_detail_chbox_1_moveNextBtn">後項</string>
+    <string name="activity_detail_chbox_1_differTv">区　分</string>
+    <string name="activity_detail_chbox_1_pageNumberTv">区分明細</string>
+    <string name="activity_detail_chbox_1_yearNumberTv">活滅区分</string>
+    <string name="activity_detail_chbox_1_chapterTv">戸籍誌</string>
+    <string name="activity_detail_chbox_1_partTv">民事月報</string>
+    <string name="activity_detail_chbox_1_article">その他</string>
+    <string name="activity_detail_chbox_1_optionTv">イメージ情報</string>
+    <string name="activity_detail_chbox_1_authorTv">訓令通牒録</string>
+    <string name="activity_detail_chbox_1_xirenboerTv">タイトル</string>
+    <string name="activity_detail_chbox_1_backBtn">返回</string>
+    <string name="activity_detail_chbox_2_exampleDifferTv">先例·判例区分</string>
+    <string name="activity_detail_chbox_2_exampleDay">登出·判决日</string>
+    <string name="activity_detail_chbox_2_exampleNo">先例·判例番号</string>
+    <string name="activity_detail_chbox_2_exampleDifferName">区分名</string>
+    <string name="activity_detail_chbox_2_exampleDifferType">先例区分</string>
+    <string name="activity_detail_chbox_2_exampleGist">要旨</string>
+    <string name="activity_detail_chbox_2_examplePicBtn">画像表示</string>
+    <string name="activity_detail_chbox_2_exampleBackBtn">戻る</string>
+    <string name="activity_detail_chbox_5_lawCountryName">国   名</string>
+    <string name="activity_detail_chbox_5_lawName">タイトル</string>
+    <string name="activity_detail_chbox_5_lawCurrent">訓令通牒録</string>
+    <string name="activity_detail_chbox_5_lawArticle">要旨</string>
+    <string name="activity_detail_chbox_5_lawPicBtn">画像表示</string>
+    <string name="activity_detail_chbox_5_lawBackBtn">戻る</string>
+    <string name="activity_foreigncer_search_countryfirst">国名先頭文字</string>
+    <string name="activity_foreigncer_search_countryname">国名</string>
+    <string name="activity_foreigncer_search_provincename">州名</string>
+    <string name="activity_foreigncer_search_booktype">書式</string>
+    <string name="activity_foreigncer_search_startsearchbtn">条件確定</string>
+    <string name="activity_foreigncer_search_foreignCerExitInitBtn">初期化/戻る</string>
+    <string name="activity_foreigncer_search_foreignCerDetailBtn">詳細情報</string>
+    <string name="activity_chouseholdReg_search_titleText">戸籍六法</string>
+    <string name="activity_chouseholdReg_search_T1">法規類型</string>
+    <string name="activity_chouseholdReg_search_b1">条件確定</string>
+    <string name="activity_chouseholdReg_search_b2">戻る</string>
+    <string name="activity_chouseholdReg_Detail_b3">詳細情報</string>
+    <string name="activity_chouseholdReg_search_b4">改變履歷</string>
+    <string name="householdReg_item_value"></string>
+    <string-array name="householdReg_items">
+        <item >  </item>
+        <item>戸籍法</item>
+        <item>戸籍法施行規則</item>
+    </string-array>
+    <string name="action_settings">两毛项目</string>
+    <string name="action_settitle">先例.判例检索</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_household_reg_search">HouseholdRegSearchActivity</string>
+
+</resources>

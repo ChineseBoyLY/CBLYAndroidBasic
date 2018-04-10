@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.les6_ui3.MainActivity" >
+
+    <!--
+  <RadioGroup android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+	<RadioButton android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="男"
+	    />
+	<RadioButton android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="女"/>
+	</RadioGroup>
+
+    <CheckBox android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="爱好1"/>	
+  <CheckBox android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="爱好2"/>	
+          <CheckBox android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="爱好3"/>	
+        
+    <ProgressBar android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+        android:max="100"
+        />
+    -->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="用户名" />
+
+        <EditText
+            android:id="@+id/nameEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="输入用户名" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码" />
+
+        <EditText
+            android:id="@+id/pwdEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="输入密码" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/maleRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/femaleRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/fireCb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="火影" />
+
+    <CheckBox
+        android:id="@+id/waterCb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="水影" />
+
+    <CheckBox
+        android:id="@+id/sandCb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="沙影" />
+
+    <Button
+        android:id="@+id/regBtn"
+        style="@style/youstyle"
+        android:onClick="btnClick"
+        android:text="注册" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_selector"
+        android:text="退出" />
+
+</LinearLayout>

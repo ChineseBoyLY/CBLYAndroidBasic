@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.les_cartoon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.les_cartoon.AlphaActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             <activity
+            android:name="com.example.les_cartoon.FrameActivity"
+            android:label="@string/title_activity_frame" >
+        </activity>
+        -->
+        <!--
+        <activity
+            android:name="com.example.les_cartoon.TweenActivity"
+            android:label="@string/title_activity_tween" >
+        </activity>
+        -->
+        <!--
+             <activity
+            android:name="com.example.les_cartoon.BallActivity"
+            android:label="@string/title_activity_ball" >
+        </activity>
+        -->
+        <!--
+             <activity
+            android:name="com.example.les_cartoon.ScaleActivity"
+            android:label="@string/title_activity_scale" >
+        </activity>
+        -->
+<!--         <activity
+            android:name="com.example.les_cartoon.RemoteActivity"
+            android:label="@string/title_activity_remote" >
+        </activity> -->
+    </application>
+
+</manifest>

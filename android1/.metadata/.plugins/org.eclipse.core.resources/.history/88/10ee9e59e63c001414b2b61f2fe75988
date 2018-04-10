@@ -1,0 +1,38 @@
+package com.example.datademo;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+
+public class DBManager {
+	private MyOpenHelper helper;
+	private SQLiteDatabase database;
+	Cursor cursor = null;
+	String dbName="bookdb";
+	int version=1;
+	
+	public DBManager(Context context) {
+		helper = new MyOpenHelper(context, dbName, null, version);
+		database = helper.getWritableDatabase();
+	}
+
+	public void insert(String sql) {
+		database.execSQL(sql);
+	}
+
+	public Cursor query(String sql) {
+		cursor = database.rawQuery(sql, null);
+		return cursor;
+
+	}
+
+	public void closeResource() {
+		if(cursor!=null){
+			cursor.close();
+		}
+		if (database != null) {
+			database.close();
+		}
+	}
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link0</name>
+			<type>2</type>
+			<location>D:/Android/adt-bundle-windows-x86-20140702/sdk/platforms/android-14/sources</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>D:/adt-bundle-windows-x86-20140702/sdk/platforms/android-19/sources</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>D:/Android/adt-bundle-windows-x86-20140702/sdk/platforms/android-14/sources</location>
+		</link>
+		<link>
+			<name>.link5</name>
+			<type>2</type>
+			<location>D:/Android/adt-bundle-windows-x86-20140702/sdk/platforms/android-20/sources</location>
+		</link>
+		<link>
+			<name>.link6</name>
+			<type>2</type>
+			<location>D:/Android/adt-bundle-windows-x86-20140702/sdk/platforms/android-17/sources</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".SecondActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第二个界面"
+        android:textSize="30sp" />
+    <Button android:id="@+id/btn21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动二个界面"
+        android:onClick="btnClick"
+        />
+    <Button android:id="@+id/btn22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动第一个界面"
+        android:onClick="btnClick" />  
+    <Button android:id="@+id/btn23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动第3个界面"
+        android:onClick="btnClick" />           
+        
+</LinearLayout>

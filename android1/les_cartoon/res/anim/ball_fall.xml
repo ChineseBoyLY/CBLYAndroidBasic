@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+	android:fromYDelta="0"
+	android:toYDelta="700"
+    android:duration="1000"
+    android:repeatCount="1"
+   
+    
+    android:interpolator="@android:anim/accelerate_interpolator">
+    
+    <!-- 
+    
+    interpolator 渲染器
+    加速渲染器：一开始会很慢 后面会很快
+  减速渲染器：一开始很快，后面会很慢
+  加速减速渲染器：一开始很快，中间慢，后面加速
+     -->
+
+</translate>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+	<color name="white">#87CEFA</color>  
+	<color name="unfocused">#000000</color>  
+	<color name="pressed">#fff22fff</color>  
+	<color name="selected">#fff33fff</color>  
+	<color name="focused">#ffff44ff</color>
+	<color name="newunfocused">#314047</color> 
+	<color name="newpressed">#0589f5</color>
+	<color name="ListSelected">#55aaee</color>
+	<color name="alreadySelected">#FFFF80</color>
+	<color name="thismonthyasumi">#FF7FFF</color>
+	<color name="thismonthworkday">#C7FFFF</color>
+	<color name="notthismonthsunday">#FF7F7F</color>
+	<color name="notthismonthsaturday">#7F7FFF</color>
+	<color name="truewhite">#FFFFFF</color>
+	<color name="yellow">#FFFF00</color>  
+</resources> 
+

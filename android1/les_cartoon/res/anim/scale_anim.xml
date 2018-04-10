@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXScale="0.5"
+    android:toXScale="1.5"
+    android:fromYScale="0.5"
+    android:toYScale="1.5"
+    android:pivotX="100%"
+    android:pivotY="0%"
+    android:duration="100"
+    android:repeatCount="infinite"
+    android:repeatMode="restart">
+    
+    <!-- 
+    	fromXScale 横向缩小或者放大倍数
+    	1.0表示正常大小 
+    	小于1.0表示缩小
+    	大于1.0表示放大
+    	pivotX
+    	pivotY 两个属性一起指定缩放支撑点
+     -->
+
+</scale>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	tools:context="com.example.les9_advance.MainActivity" >
+
+<!--     <Spinner -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:entries="@array/spiner"/> -->
+    
+    <Spinner android:id="@+id/sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+	<Spinner android:id="@+id/spcity"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+
+</LinearLayout>

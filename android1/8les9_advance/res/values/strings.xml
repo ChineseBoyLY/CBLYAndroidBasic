@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">les9_advance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="spiner">
+        <item>山东</item>
+        <item>江西</item>
+        <item>湖南</item>
+    </string-array>
+
+    <string name="title_activity_main_list">MainListActivity</string>
+
+</resources>

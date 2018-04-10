@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">les_cartoon</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_frame">FrameActivity</string>
+    <string name="title_activity_tween">TweenActivity</string>
+    <string name="title_activity_ball">BallActivity</string>
+    <string name="title_activity_scale">ScaleActivity</string>
+    <string name="title_activity_remote">RemoteActivity</string>
+
+</resources>

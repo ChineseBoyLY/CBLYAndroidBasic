@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.les_8view.MainActivity" >
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="你看不到我"
+        android:textSize="50sp"/>
+    
+   <com.example.les_8view.MyView
+        android:id="@+id/myview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+	<!-- <com.example.les_8view.MarqueeView
+	    android:id="@+id/wordView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/> -->
+
+</RelativeLayout>

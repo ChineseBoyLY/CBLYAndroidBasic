@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.datademo.MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/Black_Label"
+                    android:layout_marginTop="5dip"
+                    android:text="主题" />
+
+                <EditText 
+                    android:id="@+id/title"
+                    style="@style/Word_Search_View" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/Black_Label"
+                    android:layout_marginTop="10dip"
+                    android:text="分类" />
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <CheckBox
+                            android:id="@+id/cb1"
+                            android:text="户籍时报"
+                            android:textSize="8sp" />
+
+                        <CheckBox
+                            android:id="@+id/cb2"
+                            android:text="大阪什么"
+                            android:textSize="8sp" />
+
+                        <CheckBox
+                            android:id="@+id/cb3"
+                            android:text="涉外先例"
+                            android:textSize="8sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <CheckBox
+                            android:id="@+id/cb4"
+                            android:text="涉外判例"
+                            android:textSize="8sp" />
+
+                        <CheckBox
+                            android:id="@+id/cb5"
+                            android:text="训令抉择"
+                            android:textSize="8sp" />
+
+                        <CheckBox
+                            android:id="@+id/cb6"
+                            android:text="训令通择"
+                            android:textSize="8sp" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/Black_Label"
+                    android:layout_marginTop="5dip"
+                    android:text="日付" />
+
+                <EditText
+                    android:id="@+id/low"
+                    style="@style/Word_Search_View_Low" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="~" />
+
+                <EditText
+                    android:id="@+id/high"
+                    style="@style/Word_Search_View_Low" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/input"
+            android:orientation="vertical"
+            android:paddingLeft="12dip"
+            android:paddingTop="15dip" >
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/brown_button"
+                android:text="条件确定" 
+                android:onClick="btnClick"/>
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/brown_button"
+                android:text="初始化" 
+                android:onClick="btnClick"/>
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/brown_button"
+                android:text="详细情报" 
+                android:onClick="btnClick"/>
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/brown_button"
+                android:text="返回"
+                android:onClick="btnClick" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="20dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NO." />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="分类" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="90dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="标题" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="要旨" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

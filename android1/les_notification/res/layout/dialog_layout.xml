@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="720px"
+    android:layout_height="640px"
+    android:orientation="vertical" >
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="对话框消息"
+        android:textSize="30sp"/>
+	<Button android:id="@+id/dialogBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="确定"
+	    android:onClick="btnClick"/>
+		<Button android:id="@+id/dialogCancleBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="取消"
+	    android:onClick="btnClick"/>
+</LinearLayout>

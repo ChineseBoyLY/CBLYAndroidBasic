@@ -1,0 +1,313 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="NaviGreenBtn" >
+        <item name="android:textSize">29sp</item>
+        <item name="android:layout_width">230dip</item>
+        <item name="android:layout_height">42dip</item>
+    	<item name="android:textColor">#000000</item>
+		<item name="android:layout_marginLeft">20px</item>
+    	<item name="android:layout_marginRight">20px</item>
+    	<item name="android:background">@drawable/navi_green_btn_selector</item>
+    	<item name="android:gravity">center</item>
+    </style>
+    
+    <style name="NaviGreenBtn2" >
+        <item name="android:textSize">29sp</item>
+        <item name="android:layout_width">230dip</item>
+        <item name="android:layout_height">42dip</item>
+    	<item name="android:textColor">#000000</item>
+		<item name="android:layout_marginLeft">20px</item>
+    	<item name="android:layout_marginRight">20px</item>
+    	<item name="android:background">@drawable/navi_green_btn_selector2</item>
+    	<item name="android:gravity">center</item>
+    </style>
+    
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="Menu_Button" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">230dp</item>
+    	<item name="android:layout_height">190dp</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:padding">10dp</item>
+    	<item name="android:layout_margin">30dp</item>
+    	<item name="android:background">@drawable/button_style6</item>
+    </style>
+    <style name="Log_Button" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">160dip</item>
+    	<item name="android:layout_height">40dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">@drawable/log_btn_selector</item>
+    </style>
+    <style name="LittleTittle_Label" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">330dip</item>
+    	<item name="android:layout_height">60dip</item>
+    	<item name="android:textColor">#FFFFFF</item>
+    	<item name="android:background">#4F81BD</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:layout_margin">10dp</item>
+    	<item name="android:textSize">30sp</item>
+    </style>
+    <style name="LittleTittle2_Label" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">730dip</item>
+    	<item name="android:layout_height">42dip</item>
+    	<item name="android:textColor">#FFFFFF</item>
+    	<item name="android:background">#4F81BD</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:layout_margin">50px</item>
+    	<item name="android:textSize">30sp</item>
+    </style>
+    <style name="Options1_Bottun" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">230dip</item>
+    	<item name="android:layout_height">42dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">#DAFFA5</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:layout_marginLeft">20px</item>
+    	<item name="android:layout_marginRight">20px</item>
+    	<item name="android:textSize">28sp</item>
+    </style>
+    <style name="Uketuke_View" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">500dp</item>
+    	<item name="android:layout_height">45dp</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:gravity">left</item>
+    	<item name="android:padding">5dp</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:layout_margin">5dp</item>
+    	<item name="android:textSize">25sp</item>
+    </style>
+    <style name="Word_Search_View" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">180dp</item>
+    	<item name="android:layout_height">20dp</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:textSize">10sp</item>
+    	<item name="android:layout_margin">5dp</item>
+    	<item name="android:background">@drawable/uketuke_row_border</item>
+    </style>
+    
+<!--     在这里 -->
+    <style name="Word_Search_View_Low" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">80dp</item>
+    	<item name="android:layout_height">20dp</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:textSize">10sp</item>
+    	<item name="android:layout_margin">5dp</item>
+    	<item name="android:background">@drawable/uketuke_row_border</item>
+    </style>
+    
+
+    
+    <style name="Options_SpeBottun" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">230dip</item>
+    	<item name="android:layout_height">42dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">#FF8F8C</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:layout_marginLeft">20px</item>
+    	<item name="android:layout_marginRight">20px</item>
+    	<item name="android:textSize">28sp</item>
+    </style>
+    <style name="Options_UketukeBottun" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">150dp</item>
+    	<item name="android:layout_height">80dp</item>
+    	<item name="android:background">@drawable/button_style6</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:layout_marginLeft">10dp</item>
+    	<item name="android:layout_marginRight">10dp</item>
+    	<item name="android:textSize">35sp</item>
+    </style>
+    <style name="Options_UketukeBottun2" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">200dp</item>
+    	<item name="android:layout_height">55dp</item>
+    	<item name="android:background">@drawable/button_style6</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:layout_marginLeft">5dp</item>
+    	<item name="android:layout_marginRight">5dp</item>
+    	<item name="android:layout_marginBottom">5dp</item>
+    	<item name="android:textSize">25sp</item>
+    </style>
+    <style name="Text_ChangeButton" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">230dp</item>
+    	<item name="android:layout_height">50dp</item>
+    	<item name="android:background">@drawable/button_style6</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:layout_margin">5dp</item>
+    	<item name="android:textSize">25sp</item>
+    </style>
+    
+    <style name="Menu_ButtonA" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">500dip</item>
+    	<item name="android:layout_height">50dip</item>
+    	<item name="android:textColor">#FFFFFF</item>
+    	<item name="android:background">@drawable/button_style5</item>
+    	<item name="android:gravity">left</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:layout_margin">10px</item>
+    	<item name="android:padding">5dip</item>
+    	<item name="android:textSize">30sp</item>
+    </style>
+    <style name="Menu_ButtonB" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">200dip</item>
+    	<item name="android:layout_height">50dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">@drawable/button_style6</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:padding">5dip</item>
+    	<item name="android:textSize">25sp</item>
+    </style>
+    <style name="Options2_Bottun" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">170dip</item>
+    	<item name="android:layout_height">42dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">#DAFFA5</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:layout_marginLeft">20px</item>
+    	<item name="android:layout_marginRight">20px</item>
+    	<item name="android:textSize">28sp</item>
+    </style>
+    
+    <style name="Options3_Bottun" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">320dip</item>
+    	<item name="android:layout_height">42dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">#DAFFA5</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:layout_marginLeft">20px</item>
+    	<item name="android:layout_marginRight">20px</item>
+    	<item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="Text_Label" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">100dip</item>
+    	<item name="android:layout_height">37dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">#4F81BD</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:layout_gravity">center_vertical</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    </style>
+    <style name="Black_Label" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">60dp</item>
+    	<item name="android:layout_height">20dp</item>
+    	<item name="android:textColor">#FFFFFF</item>
+    	<item name="android:background">#404040</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">10sp</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    </style>
+    
+    <style name="Text2_Label" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">470dip</item>
+    	<item name="android:layout_height">37dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">#4F81BD</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:layout_gravity">center_vertical</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    </style>
+    
+        <style name="Text3_Label" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">470dip</item>
+    	<item name="android:layout_height">37dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">#4F81BD</item>
+    	<item name="android:gravity">right</item>
+    	<item name="android:layout_gravity">center_vertical</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    </style>
+    
+    
+    
+    <style name="Foreign_Label" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_height">32dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">@drawable/list_index_border</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:padding">3px</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    </style>
+    
+    <style name="Foreign_List_Label" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_height">fill_parent</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">@drawable/list_row_border</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:padding">3px</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    </style>
+    
+    <style name="conditon_little" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">170dip</item>
+    	<item name="android:layout_height">42dip</item>
+    	<item name="android:textColor">#000000</item>
+    	<item name="android:background">@drawable/botton_color</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:layout_marginLeft">20px</item>
+    	<item name="android:layout_marginRight">20px</item>
+    	<item name="android:textSize">28sp</item>
+    </style>
+    <style name="math_button" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">230dip</item>
+    	<item name="android:layout_height">50dip</item>
+    	<item name="android:background">@drawable/navi_green_btn_selector</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:layout_marginLeft">20dp</item>
+    	<item name="android:layout_marginRight">20dp</item>
+    	<item name="android:textSize">30sp</item>
+    </style>
+    <style name="brown_button" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">80dp</item>
+    	<item name="android:layout_height">20dp</item>
+    	<item name="android:background">@drawable/brown_btn_selector</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:layout_marginBottom">10dip</item>
+    	<item name="android:textSize">12sp</item>
+    	<item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="NameCheckRsultDialog"  parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowBackground">@drawable/dialog_blue_back1</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="tiaowenbtn" parent="@android:style/TextAppearance.Medium">
+    	<item name="android:layout_width">160dp</item>
+    	<item name="android:layout_height">40dp</item>
+    	<item name="android:background">@drawable/brown_btn_selector</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:singleLine">true</item>
+    	<item name="android:textSize">30sp</item>
+    	<item name="android:textColor">#FFFFFF</item>
+    </style>
+    
+</resources>

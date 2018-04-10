@@ -1,0 +1,14 @@
+package com.example.viewflipperdemo;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.widget.FrameLayout;
+
+public class ViewFlipperView extends FrameLayout implements IAdImages {
+
+	public ViewFlipperView(Context context, AttributeSet attrs, int defStyle) {
+		super(context, attrs, defStyle);
+		// TODO Auto-generated constructor stub
+	}
+
+}

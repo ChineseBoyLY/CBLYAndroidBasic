@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	tools:context=".BallActivity" >
+
+    <ImageView android:id="@+id/ballIv"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:src="@drawable/ball" />
+
+</LinearLayout>

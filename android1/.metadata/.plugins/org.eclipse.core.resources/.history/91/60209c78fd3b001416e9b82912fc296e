@@ -1,0 +1,7 @@
+package com.example.viewflipperdemo;
+
+import android.widget.FrameLayout;
+
+public class ViewFlipperView extends FrameLayout implements IAdImages {
+
+}

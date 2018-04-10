@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbar.MainActivity" >
+
+<!-- 
+	showAsAction 的取值：
+		ifRoom: 只有在actionBar有地方的时候才会显示action按钮
+		withText: 除了在action按钮上面显示图标。还会显示菜单项文本，与其他属性值一起使用，例如：ifRoom|withText
+		never: 从来不会将当前菜单项作为action按钮放到actionBar上面
+		always:从来都会将当前菜单项作为action按钮放到actionBar上面，
+				如果没有足够的空间，系统会从actionBar上移除掉非always的action按钮；
+				若仍然没有足够的空间，action按钮会覆盖actionBar左侧的标题文本，但是不会将左侧的应用程序图标挤掉
+		collapseActionView： 允许与action按钮关联的，和搭配的自定义选项一起使用。例如： android:actionViewClass="android.widget.EditText"
+
+ -->
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/a1"
+        android:showAsAction="ifRoom|withText"
+        android:title="设置1"/>
+    <item
+        android:id="@+id/action_settings5"
+        android:orderInCategory="100"
+        android:icon="@drawable/a1"
+        android:showAsAction="collapseActionView"
+        android:actionViewClass="android.widget.EditText"
+        android:title="设置5"/>
+    <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:icon="@drawable/a1"
+        android:showAsAction="never"
+        android:title="设置2"/>
+     <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:icon="@drawable/a1"
+        android:showAsAction="never"
+        android:title="设置3"/>
+    <item
+        android:id="@+id/action_settings6"
+        android:orderInCategory="100"
+        android:icon="@drawable/a1"
+        android:showAsAction="always"
+        android:title="设置5"/>
+
+</menu>

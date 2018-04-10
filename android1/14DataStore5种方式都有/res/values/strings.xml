@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">数据存储</string>
+    <string name="action_settings">Settings</string>
+    <string name="returnhome">返回目录</string>
+    
+    <!-- 数据存储方式 -->
+    <string name="share_preferences">Share Preferences</string>    
+    <string name="files">Files</string>
+    <string name="network">NetWork</string>    
+    <string name="sqlite">SQLite</string>  
+    <string name="submit">提交</string> 
+    <string name="delete">删除</string>
+
+</resources>

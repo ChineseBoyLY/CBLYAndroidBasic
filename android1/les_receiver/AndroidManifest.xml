@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.les_receiver"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.les_receiver.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.example.les_receiver.MyReceiver">
+<!--    android:priority=""  这里面可以填写一个 1到999之间的值   优先级从低到高  -->
+            <intent-filter android:priority="1">
+                <!-- 配置接受者对什么消息感兴趣 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <!-- 短信广播消息 -->
+            	<action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            	<!-- 打电话出去广播消息 -->
+            	<action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+            	
+<!--             	<action android:name="iloveyou"/> -->
+            	<!-- 锁屏 -->
+            	<action android:name="android.intent.action.SCREEN_OFF"/>
+            	<!-- 解锁 -->
+            	<action android:name="android.intent.action.SCREEN_ON"/>
+            </intent-filter>
+        </receiver>
+    </application>
+    <!-- 监听电话状态权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<!-- 申请开机的广播消息 -->
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+<!-- 持续广播需要添加的权限 
+	<uses-permission android:name="android.permission.BROADCAST_STICKY"/>-->
+</manifest>
